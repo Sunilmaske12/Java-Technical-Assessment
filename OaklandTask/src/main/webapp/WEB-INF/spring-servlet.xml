@@ -31,8 +31,8 @@
 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" 	name="datasource">
 		<property name="driverClassName"	value="com.mysql.jdbc.Driver" />
 		<property name="url"	value="jdbc:mysql://localhost:3306/oaklandtask?useSSL=false" />
-		<property name="username" value="root" />
-		<property name="password" value="Sunil123" />
+		<property name="username" value="YOUR_USERNAME" />
+		<property name="password" value="YOUR_PASSWORD" />
 	</bean>
 
 	<bean	class="org.springframework.orm.hibernate5.LocalSessionFactoryBean"	name="sessionFactory">
